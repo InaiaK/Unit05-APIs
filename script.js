@@ -1,5 +1,10 @@
-var today = moment().format('MMMM Do YYYY, h:mm:ss a');
+var today = moment().format('LLL'); 
 $("#currentDay").text(today);
+console.log(today);
+// fix time
+
+
+
 
 
 
