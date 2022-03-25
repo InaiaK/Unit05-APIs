@@ -20,11 +20,12 @@ body {
     border-radius: 0;
     border-bottom: 10px solid black;
   }
-  
+  #currentDay{
+      font-style: italic;
+  }
   .description {
     white-space: pre-wrap;
-    border:  1px solid black;
-  }
+      }
   
   .time-block {
     text-align: center;
