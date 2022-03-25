@@ -1,9 +1,5 @@
-var today = moment().format('LLL'); 
-$("#currentDay").text(today);
-console.log(today);
-// fix time
-
-
+var today = moment();
+$("#currentDay").text(today.format('LLLL'));
 
 
 
