@@ -17,9 +17,13 @@ var hour = $(['#hour09am',
 '#hour05pm',
 '#hour06pm',])
 
+// Present,Past or Future 
 timeContainer.on('click',function() {
 if(today == hour){$('.description')=('.present')}
 else{ $('.description')=('.past','.future')
 }
+if(today < hour){$('.description')=('.past')}
+else{ $('.description')=('.present','.future')
 }
-)
+if(today > hour){$('.description')=('.future')}
+else{ $('.description')=('.present','.past'))}
