@@ -5,16 +5,17 @@ $("#currentDay").html(todayDate);
 // Inital function for writing to local storage from input
 $(document).ready(function () {    
     $(".saveBtn").on("click", function () {        
-        var text = $(this).siblings(".to-do").val();
-        var time = $(this).parent().attr("id");        
+        var text = $(this).siblings(".description").children(".to-do").val();
+        var time = $(this).siblings(".time-block").attr("id");        
         localStorage.setItem(time, text);
     })
 
     //track of time based on moment js 
     function timeTracker() {        
         var timeNow = moment().hour();        
-        $(".time-block").each(function () {
-            var blockTime = parseInt($(this).attr("id").split("hour")[1]);
+        $(".time-block").each(function (ele) {
+            console.log($(this))
+            var blockTime = parseInt($(this).attr("id").split("r")[1]);
             if (blockTime < timeNow) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
@@ -45,7 +46,7 @@ $("#hour16 .to-do").val(localStorage.getItem("hour16"));
 $("#hour17 .to-do").val(localStorage.getItem("hour17"));
 $("#hour18 .to-do").val(localStorage.getItem("hour18"));
 
-timeTracker();
+// timeTracker();
 })
 
             
