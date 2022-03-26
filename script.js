@@ -17,19 +17,19 @@ $(document).ready(function () {
             console.log($(this))
             var blockTime = parseInt($(this).attr("data-hour"));
             if (blockTime < timeNow) {
-                $(this).removeClass("future");
-                $(this).removeClass("present");
-                $(this).addClass("past");
+                $(this).siblings(".description").children(".to-do").removeClass("future");
+                $(this).siblings(".description").children(".to-do").removeClass("present");
+                $(this).siblings(".description").children(".to-do").addClass("past");
             }
             else if (blockTime === timeNow) {
-                $(this).removeClass("past");
-                $(this).removeClass("future");
-                $(this).addClass("present");
+                $(this).siblings(".description").children(".to-do").removeClass("past");
+                $(this).siblings(".description").children(".to-do").removeClass("future");
+                $(this).siblings(".description").children(".to-do").addClass("present");
             }
             else {
-                $(this).removeClass("present");
-                $(this).removeClass("past");
-                $(this).addClass("future");
+                $(this).siblings(".description").children(".to-do").removeClass("present");
+                $(this).siblings(".description").children(".to-do").removeClass("past");
+                $(this).siblings(".description").children(".to-do").addClass("future");
 
             }
         })
