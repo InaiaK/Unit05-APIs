@@ -15,7 +15,7 @@ $(document).ready(function () {
         var timeNow = moment().hour();        
         $(".time-block").each(function (ele) {
             console.log($(this))
-            var blockTime = parseInt($(this).attr("id").split("r")[1]);
+            var blockTime = parseInt($(this).attr("data-hour"));
             if (blockTime < timeNow) {
                 $(this).removeClass("future");
                 $(this).removeClass("present");
@@ -46,7 +46,7 @@ $("#hour16 .to-do").val(localStorage.getItem("hour16"));
 $("#hour17 .to-do").val(localStorage.getItem("hour17"));
 $("#hour18 .to-do").val(localStorage.getItem("hour18"));
 
-// timeTracker();
+timeTracker();
 })
 
             
