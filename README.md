@@ -1,4 +1,4 @@
-# Currently FullStack Student. 
+# Currently full stack student.
 Unit05-APIs
 Homework - Third-Party APIs: Work Day Scheduler
 
