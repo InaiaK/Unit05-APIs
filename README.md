@@ -4,7 +4,7 @@ Homework - Third-Party APIs: Work Day Scheduler
 
 # Contact Me
 
-E-mail: inaiakenia15@gmail.com
+E-mail: inaia5martin@gmail.com
 Slack: @InaiaK
 GitHub:InaiaK
 
