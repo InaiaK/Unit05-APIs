@@ -6,18 +6,17 @@ Technologies used:
 - BOOTSTRAP
 - JAVASCRIPT 
 
-# Contact Me
-
-E-mail: inaia5martin@gmail.com
-Slack: @InaiaK
-GitHub:InaiaK
-
-
 ## User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
+
+# Contact Me
+
+E-mail: inaia5martin@gmail.com
+Slack: @InaiaK
+GitHub:InaiaK
 
 ## Acceptance Criteria
 
