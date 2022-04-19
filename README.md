@@ -1,6 +1,10 @@
-# Currently full stack student.
-Unit05-APIs
-Homework - Third-Party APIs: Work Day Scheduler
+Work Day Scheduler 
+
+Technologies used:
+- HTML
+- CSS
+- BOOTSTRAP
+- JAVASCRIPT 
 
 # Contact Me
 
@@ -8,8 +12,8 @@ E-mail: inaia5martin@gmail.com
 Slack: @InaiaK
 GitHub:InaiaK
 
-## User Story
 
+## User Story
 AS AN employee with a busy schedule
 I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
