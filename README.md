@@ -12,7 +12,7 @@ I WANT to add important events to a daily planner
 SO THAT I can manage my time effectively
 ```
 
-# Contact Me
+## Contact Me
 
 E-mail: inaia5martin@gmail.com
 Slack: @InaiaK
