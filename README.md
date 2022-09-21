@@ -10,7 +10,7 @@ The main objective is to create a simple calendar application that allows a user
 
 
 ## Deploy link
-
+https://inaiak.github.io/Work-planner/
 
 
 ## Technologies used:
