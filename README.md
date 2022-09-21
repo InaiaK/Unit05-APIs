@@ -7,7 +7,7 @@ Starter code includes a partially completed style.css & index.html files. The Sc
 The main objective is to create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
 
 ## Image
-
+<img src="https://github.com/InaiaK/Work-planner/blob/main/Untitled_%20Sep%2020%2C%202022%209_33%20PM.gif">
 
 ## Deploy link
 https://inaiak.github.io/Work-planner/
