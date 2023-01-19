@@ -1,4 +1,4 @@
-# Work Day Scheduler 
+# Work Day Planner
 
 ## Project Description (Third-Party APIs)
 
